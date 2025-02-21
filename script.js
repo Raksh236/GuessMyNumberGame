@@ -1,4 +1,4 @@
-document.querySelector("body").style.backgroundColor = "#222";
+document.querySelector("body").style.backgroundColor = "#696969";
 
 let secnumber = Math.trunc(Math.random() * 20) + 1;
 console.log(secnumber);
@@ -73,7 +73,7 @@ document.querySelector(".check").addEventListener("click", function () {
 document.querySelector(".again").addEventListener("click", function () {
   secnumber = Math.trunc(Math.random() * 20) + 1;
   score = 20;
-  document.querySelector("body").style.backgroundColor = "#222";
+  document.querySelector("body").style.backgroundColor = "#696969";
   displayMessage("start guessing");
   // document.querySelector(".message").textContent = "start guessing";
   document.querySelector(".score").textContent = score;
